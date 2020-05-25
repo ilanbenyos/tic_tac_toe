@@ -2,7 +2,10 @@
   <div class="about_game app-page p-3  d-flex justify-content-center">
     <div class="inner" style="max-width:600px;">
       <h1 class="text-center">About game</h1>
-      <p>A Tic-Tac-Toe game I built as an exam for my last work. they wanted a simple game, I've created an online game to play with my kids. </p>
+      <p>A Tic-Tac-Toe game I built as an exam for my last work. 
+        <br>
+        they wanted a simple game, I've created an online game to play with my kids.
+      </p>
       <section class="my-3">
         <h3 class="mb-3">Tech Stack</h3>
         <h5 class="mb-3">Front:</h5>
