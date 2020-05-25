@@ -3,7 +3,7 @@
     <div class="d-flex flex-center flex-column">
       <v-card class="card">
         <v-toolbar color="indigo" dark>
-          <v-toolbar-title>RazorGrip League</v-toolbar-title>
+          <v-toolbar-title>HEROLO League</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon @click="$store.dispatch('games/fetchGames')">
                 <v-icon>refresh</v-icon>
@@ -43,6 +43,7 @@ export default {
         this.$loading(true);
         await this.$store.dispatch(actionStr, data);
       } catch (err) {
+        // eslint-disable-next-line no-console
         console.log(err);
       } finally {
         this.$loading(false);

@@ -2,7 +2,7 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>RAZORGRIP </span>
+        <span>HEROLO </span>
         <span class="font-weight-light">- TIC-TAC-TOE</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -21,6 +21,7 @@
         >Games</router-link
       >
       <router-link :to="{ name: 'about' }" class="ml-2">About Ilan</router-link>
+      <router-link :to="{ name: 'aboutGame' }" class="ml-2">About Game</router-link>
     </v-toolbar>
     <router-view></router-view>
     <transition name="fade">
