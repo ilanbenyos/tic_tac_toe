@@ -1,0 +1,32 @@
+{
+  "name": "koala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test  to specified\" && exit 1"
+  },
+  "author": "ilan ben yosef",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bcrypt": "^3.0.6",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^8.1.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-passport": "^4.0.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.0.6",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.1.1"
+  }
+}
