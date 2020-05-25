@@ -1,4 +1,5 @@
-## backend app for tic-tak-toe 
+##  tic-tak-toe 
+### working demo: https://ilan-tic-tac.surge.sh/#/
 
 ##### Run app :
     npm i
@@ -11,6 +12,8 @@
 3. mongoose as ORM.
 4. routing via koa router
 ```
+
+
 
 
     

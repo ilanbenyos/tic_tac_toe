@@ -1,6 +1,7 @@
 {
   "name": "tictac",
   "version": "1.0.0",
+  "demo":"https://ilan-tic-tac.surge.sh/#/",
   "description": "tic tac toe- server (koa), client (vue) and socket in between",
   "main": "index.js",
   "scripts": {

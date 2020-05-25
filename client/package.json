@@ -2,6 +2,7 @@
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
+  "demo":"https://ilan-tic-tac.surge.sh/#/",
   "scripts": {
     "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
