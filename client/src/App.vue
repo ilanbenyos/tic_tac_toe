@@ -2,7 +2,7 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>HEROLO </span>
+<!--        <span>HEROLO </span>-->
         <span class="font-weight-light">- TIC-TAC-TOE</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>

@@ -28,6 +28,9 @@
         <span class="mr-2">Logout</span>
       </v-btn>
     </div>
+    <div class="mt-5  text-secondary">
+    login with <span class="text-small"> user1 / user2, password:123456.</span>
+    </div>
   </v-container>
 </template>
 
@@ -47,7 +50,8 @@ export default {
         this.$toast("Registered Successfully");
         this.$router.push({ name: "games" });
       } catch (err) {
-        console.log(err);
+        console.error(err);
+        alert('here will come good err handling when I\'ll have time. for now you probably tried to register instead of login...')
       } finally {
         this.$loading(false);
       }
